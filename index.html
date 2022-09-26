@@ -12,7 +12,51 @@
     <title>Les balises HTML</title>
 </head>
 <!-- c'est le corps du document, la partie -->
-<body>
-    Le premier cours </HTML>
+</body>
+<!-- Les types de balises -->
+<!-- Les balises en paires, par exemple <h1> qui correspond au titre principal de notre page -->
+    <h1>Justin Ravat - Designer et Développeur Web</h1>
+    <!-- Les balises orphelines, comme les balises <img> par exemple -->
+    <img src="assets/images/" 
+         alt="photo de profil de dimitri">
+    <!-- Attention par convention on peut fermer une balise orpheline soit, on l'écrit <img>, ce qui est correct, soit pour une meilleure lecture on l'écrit en la fermant comme ceci <img/> -->
+
+    <!-- Les attribus sont les "paramètres" de nos balises, ils viennent les compléter pour donner de nouvelles informations -->
+        <balise attribut="valeur"/>
+
+        <!-- ORGANISATION DU TEXTE -->
+
+        <!-- on organise du texte avec les Headings -->
+        <!-- Dans notre cas, nous avons un h1, donc un titre pricipal nous voulons donc un h2 -->
+            <h2>Coordonnées</h2>
+            <!-- On se sert d'un paragraphe pour donner une indication -->
+            <p>je suis disponible de suite, contactez moi !</p>
+            <!-- J'utilise une balise adresse car je vais rentrer mes coordonnées -->
+            <address>
+                <!-- on utilise la balise anchor <a></a> pour définir nos liens -->
+                <!-- Dans ce cas précis, on va donner un lien vers notre courriel -->
+                <a href="malto:justin.ravat@proton.me">justin.ravat@proton.me</a>
+                <!-- pour effectuer un saut de ligne, j'utilise <br/> -->
+                <br>
+                <!-- Pareil pour le téléphone -->
+                <a href="tel : 0668340042">+33(0)6-68-34-00-42</a>
+            </address>
+        </section>
+        <!-- DEBUT SECTION EXP PRO -->
+        <section>
+
+            <h2>Expérience professionnelle</h2>
+            <!-- On va utiliser la liste non-ordonnées -->
+            <ul>
+                <!-- On y insère des puces -->
+                <li>
+                    <!-- Pn place un titre -->
+                    <h3>Formateur chez WebForce 3</h3>
+                    <p>Depuis 2020, j'interviens aussi en centre, qu'en maison d'arrêt</p>
+                </li>
+                <li>deux</li>
+                <li>trois</li>
+                <li>quatre</li>
+            </ul>
 </body>
 </html>
